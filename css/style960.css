@@ -1,0 +1,909 @@
+﻿@font-face {
+    font-family: 'League';
+    src: url('../fonts/league_gothic-webfont.eot');
+    src: url('../fonts/league_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/league_gothic-webfont.woff2') format('woff2'),
+         url('../fonts/league_gothic-webfont.woff') format('woff'),
+         url('../fonts/league_gothic-webfont.ttf') format('truetype'),
+         url('../fonts/league_gothic-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Open_sans';
+    src: url('../fonts/OpenSans-Light-webfont.eot');
+    src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Open_sans';
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot');
+    src: url('../fonts/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-ExtraBold-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-ExtraBold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+body {
+	background-image: url(../img/footer_pic.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: bottom;
+	font-family: Open_sans, sans-serif;
+}
+
+
+.wrapper_header {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+header {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 845px;
+	border-bottom: 1px solid #34263b;
+	background-image: url(../img/bg_pic.jpg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+header p {
+	text-align: left;
+}		
+
+
+.sitelogo {
+	float: left;
+	margin-top: 70px;
+	width: 152px;
+	height:39px;
+}
+
+
+/*----------------------- header NAV -----------------------*/
+
+
+
+.mainnav {
+	float: right;
+	margin-top: 76px;
+
+}
+
+
+.mainnav ul {
+	list-style: none;
+}
+
+
+.mainnav ul li {
+	display: block;
+	float: left;
+	margin: 0 0 0 50px;
+}
+
+
+
+.mainnav  ul li a{
+	display: block;
+	padding: 0 1px;
+	font-family: League;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: #000 1px 1px 3px;
+}
+
+
+.mainnav  ul li a:hover {
+	display: block;
+	margin: 0 auto;
+	height: 27px;
+	border-bottom: 2px solid #edbfff;
+}
+
+
+
+/*------------------- slider phone -----------------------*/
+
+
+.slider {
+	margin-top: 278px;
+	width: 100%;
+	height: 398px;
+	background: rgb(0, 0, 0);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20); 
+	background: rgba(0, 0, 0, 0.2);
+}
+
+
+
+.slider__content {
+	margin: 0 auto;
+	position: relative;
+	width: 960px;
+
+}
+
+
+.slider__phone {
+	position: absolute;
+	top: -15px;
+	left: 621px;
+	width: 267px;
+	height: 434px;
+	background: url(../img/phone.png) 100% 100% no-repeat;
+	background-size: cover;
+}
+
+
+.slider__link {
+	display: block;
+	position: absolute;
+	top: 133px;
+	left: 754px;
+	width: 77px;
+	height: 77px;
+	background: url(../img/play.png) 100% 100% no-repeat;
+	background-size: cover;
+}
+
+
+.slider__link:hover {
+	display: block;
+	position: absolute;
+	top: 133px;
+	left: 754px;
+	width: 77px;
+	height: 77px;
+	background: url(../img/play_hover.png) 100% 100% no-repeat;
+	background-size: cover;
+
+}
+
+a.slider__larrow {
+	display: block;
+	position: absolute;
+	top: 182px;
+	left: -40px;
+	z-index: 5;
+	width: 30px;
+	height: 42px;
+	background: url(../img/slider_arrows.png) 0 0 no-repeat;
+	
+}
+
+a.slider__larrow:hover{
+	display: block;
+	position: absolute;
+	top: 182px;
+	left: -40px;
+	z-index: 5;
+	width: 30px;
+	height: 42px;
+	background: url(../img/slider_arrows.png) 0 -42px no-repeat;
+	
+}
+
+
+a.slider__rarrow {
+	position: absolute;
+	top: 182px;
+	left: 930px;
+	width: 30px;
+	height: 42px;
+	background: url(../img/slider_arrows.png) -30px 0 no-repeat;
+	
+}
+
+a.slider__rarrow:hover {
+	position: absolute;
+	top: 182px;
+	left: 930px;
+	width: 30px;
+	height: 42px;
+	background: url(../img/slider_arrows.png) -30px -42px no-repeat;
+	
+}
+
+
+.slider__content h2 {
+	text-align: left;
+	padding-left: 0;	
+	padding-top: 78px;
+	font-family: League;
+	color: #fff;
+	font-size: 60px;
+	text-shadow: #000 1px 1px 3px;
+	text-transform: capitalize;
+	letter-spacing: -0.005em;
+	
+}
+
+
+
+.slider__content h3 {
+	text-align: left;
+	padding-left: 0;
+	padding-top: 0;
+	font-family: League;
+	color: #edbfff;
+	font-size: 32px;
+	text-shadow: #000 1px 1px 3px;
+	text-transform: uppercase;
+
+
+}
+
+
+
+.slider__content p {
+	display: block;
+	width: 510px;
+	height: 145px;
+	overflow: hidden;
+	text-align: left;
+	padding-left: 0;
+	padding-top: 2px;
+	font-family: Open_sans;
+	line-height: 1.4;
+	color: #fff;
+	font-size: 18px;
+	text-shadow: #000 1px 1px 3px;
+
+}
+
+
+.circles {
+	clear: both;
+	width: 88px;
+	margin-top: 92px;
+	margin-left: 710px;
+}
+
+.circles  ul {
+	list-style: none;
+}
+
+
+.circles  ul  li {
+	float: left;
+	padding: 0 3px;
+}
+
+.circles  ul  li a {
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: #6f6a75; 
+	border: 2px solid #6f6a75;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	behavior: url(border-radius.htc);
+}
+
+.circles  ul  li a:hover {
+	background: #fff;
+
+}
+
+/*----------------------- purple div  -------------------------------*/
+
+.blurbs {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	border-top: 1px solid #34263b;
+	background: #664973;
+	background: linear-gradient(to top, #36293d, #765284);
+	padding: 47px 0 65px;
+	border-bottom: 1px solid #fff;
+	-webkit-box-shadow: 0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	behavior: url(box-shadow.htc);
+}     
+
+.blurbs__wrapper {
+		width: 960px;
+		margin: 0 auto;
+	
+}
+
+
+.blurbs__box, .blurbs__box--center, .blurbs__box--right {
+	position: relative;
+	float: left;
+	width: 284px;
+	height: 200px;
+	margin: 0;
+	padding: 28px 0 0;
+}
+
+.blurbs__box--center {
+	
+	margin: 0 51px;	
+	
+}
+
+
+.blurbs  h3 {
+	padding-left: 62px;
+	padding-bottom: 10px;
+	font-family: League;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: #000 1px 1px 3px;
+	text-transform: uppercase;
+	
+}
+
+.blurbs__box h3:before {
+	content: url(../img/blurbs_pic.png);
+	display:block;
+	position: absolute;
+	top: 30px;
+	left: 13px;
+
+}
+
+.blurbs__box--center h3:before {
+	content: url(../img/blurbs_pic2.png);
+	display:block;
+	position: absolute;
+	top: 30px;
+	left: 13px;
+
+}
+
+
+.blurbs__box--right h3:before {
+	content: url(../img/blurbs_pic3.png);
+	display:block;
+	position: absolute;
+	top: 30px;
+	left: 13px;
+
+}
+
+
+.blurbs p  {
+	display: block;
+	width: 233px;
+	height: 117px;
+	overflow: hidden;
+	padding-left: 62px;
+	font-family: Open_sans;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #fff;
+	text-shadow: #000 1px 1px 1px;
+}
+
+
+a.blurbs__link {
+	display: block;
+	float: right;
+	margin-top: 20px;
+	font-family: League;
+	font-size: 18px;
+	color: #fff;
+	text-shadow: #000 2px 2px 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+
+
+a.blurbs__link:hover {
+	text-shadow: none;
+	
+}
+
+
+/*-----------------------------  main --------------------------------------*/
+
+.main {
+	width: 100%;
+	background: #f9f9f9;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+
+.pingbuller__wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+.pingbuller {
+	float: left;
+	margin-left: 23px;
+	width: 427px;
+	height: 273px;
+	background: #fff;
+	border-bottom: 1px solid #efefef;
+	margin-top: 99px;
+}
+
+.pingbuller  h2 {
+	padding: 27px 150px 0 40px;
+	font-family: League;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;	
+}
+
+.pingbuller  h2:before {
+	content: url(../img/pingbuller_pic.png);
+	display:block;
+	position: absolute;
+	top: 114px;
+	left: 0;
+}
+
+
+
+.pingbuller  h2 span {
+	color: #edbfff;
+}
+
+
+
+.pingbuller p  {
+	display: block;
+	height: 162px;
+	overflow: hidden;
+	padding: 11px 42px 0 40px;
+	font-family: Open_sans;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #454545;
+}
+
+
+.circles--white {
+	clear: both;
+	width: 97px;
+	padding-left: 194px;
+	padding-top: 23px; 
+	margin-bottom: 90px;
+}
+
+.circles--white  ul {
+	list-style: none;
+}
+
+.circles--white  ul  li {
+	float: left;
+	padding: 0 4px;
+}
+
+.circles--white  ul  li a{
+	display: block;
+	width: 12px;
+	height: 12px;
+	background: #fff; 
+	border: 2px solid #ececec;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	border-radius: 8px;
+	behavior: url(border-radius.htc);
+}
+
+.circles--white  ul  li a:hover{
+	background: #5a5a5a;
+}
+
+
+.updates {
+	position: absolute;
+	top: 128px;
+	left: 510px;
+	width: 433px;
+
+
+}
+
+.updates h2 {
+	font-family: League;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+
+}
+
+.updates__box {
+	position: relative; 
+	margin: 17px 0;	
+}
+
+.updates h3 {
+	padding-left: 64px;
+	font-family: Open_sans;
+	font-weight: bold;
+	font-size: 16px;
+	color: #454545;
+	line-height: 1.5;	
+}
+
+
+
+.updates  p  {
+	display: block;
+	width: 380px;
+	height: 25px;
+	overflow: hidden;
+	padding-left: 64px;
+	font-family: Open_sans;
+	font-size: 16px;
+	color: #454545;
+	line-height: 1.5;	
+}
+
+.updates__box :before {
+	content: url(../img/updates_pic.png);
+	display:block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+a.updates__link {
+	display: block;
+	margin-top: 5px;
+	float: right;
+	font-family: League;
+	font-size: 18px;
+	color: #454545;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+
+/*----------------------- logos -------------------------------------*/
+
+.brands {
+	width: 100%;
+	background: #f9f9f9;
+}
+
+.brands__wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 960px;
+	height: 120px;
+	margin: 0 auto;
+
+}
+
+ul.brands  {
+ 
+}
+
+ul.brands  li {
+	list-style: none;
+
+}
+
+a.brand1{
+	position: absolute;
+	top: 22px;
+	left: 92px;
+	display: block;
+	width: 74px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) 0 0 no-repeat;
+}
+
+a.brand1:hover{
+	position: absolute;
+	top: 22px;
+	left: 92px;
+	display: block;
+	width: 74px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) 0 -76px no-repeat;
+}
+
+
+a.brand2{
+	position: absolute;
+	top: 22px;
+	left: 226px;
+	display: block;
+	width: 74px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) -80px 0 no-repeat;
+}
+
+a.brand2:hover{
+	position: absolute;
+	top: 22px;
+	left: 226px;
+	display: block;
+	width: 74px;
+	height: 70px;
+	background: url(../img/brands_sprite.png) -80px -76px no-repeat;
+}
+
+
+
+a.brand3{
+	position: absolute;
+	top: 22px;
+	left: 361px;
+	display: block;
+	width: 68px;
+	height: 69px;
+	background: url(../img/brands_sprite.png) -161px 0 no-repeat;
+}
+
+
+
+a.brand3:hover{
+	position: absolute;
+	top: 22px;
+	left: 361px;
+	display: block;
+	width: 68px;
+	height: 69px;
+	background: url(../img/brands_sprite.png) -161px -76px no-repeat;
+}
+
+
+a.brand4{
+	position: absolute;
+	top: 22px;
+	left: 502px;
+	display: block;
+	width: 57px;
+	height: 73px;
+	background: url(../img/brands_sprite.png) -237px 0 no-repeat;
+}
+
+
+a.brand4:hover{
+	position: absolute;
+	top: 22px;
+	left: 502px;
+	display: block;
+	width: 57px;
+	height: 73px;
+	background: url(../img/brands_sprite.png) -237px -76px no-repeat;
+}
+
+
+a.brand5{
+	position: absolute;
+	top: 42px;
+	left: 620px;
+	display: block;
+	width: 110px;
+	height: 35px;
+	background: url(../img/brands_sprite.png) -300px -23px no-repeat;
+}
+
+
+a.brand5:hover{
+	position: absolute;
+	top: 42px;
+	left: 620px;
+	display: block;
+	width: 110px;
+	height: 35px;
+	background: url(../img/brands_sprite.png) -300px -99px no-repeat;
+}
+
+
+a.brand6{
+	position: absolute;
+	top: 23px;
+	left: 789px;
+	display: block;
+	width: 90px;
+	height: 73px;
+	background: url(../img/brands_sprite.png) -410px 0 no-repeat;
+}
+
+a.brand6:hover{
+	position: absolute;
+	top: 23px;
+	left: 789px;
+	display: block;
+	width: 90px;
+	height: 73px;
+	background: url(../img/brands_sprite.png) -410px -76px no-repeat;
+}
+
+/*--------------------- gray section -------------------------------------*/
+.gray {
+	width: 100%;
+	height: 396px;
+	background: #ececec;
+	border-top: 1px solid #d8d8d8;
+	-webkit-box-shadow: 0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 8px 22px -7px rgba(50, 50, 50, 0.75);
+	behavior: url(box-shadow.htc);	
+}
+
+
+.gray__wrapper {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 95px;
+	
+}
+
+
+.gray__buller, .gray__comments, .gray__news  {
+	width: 278px;
+	float: left;
+	height: 210px;
+	margin-bottom: 97px;
+}
+
+.gray__comments {
+	margin: 0 60px;	
+}
+
+
+.gray__comments  h2, .gray__news  h2 {
+	
+	padding: 2px 0;
+	font-family: League;
+	font-size: 30px;
+	color: #454545;
+	text-transform: uppercase;
+
+}
+
+ .gray__buller  h2 {
+	 font-family: League;
+	font-size: 48px;
+	color: #454545;
+	text-transform: uppercase;
+	 
+ }
+
+ 
+  .gray__buller  h2 span {  
+	color: #b9b9b9;  
+  }
+  
+   .gray__buller  h2:after {
+	   display: block;
+	   margin: 12px 0 5px;
+	   content: 'Copyright 2013, Pingbull AS';
+	   color: #c8c8c8;
+	   text-transform: none;
+	   font-family: Georgia, serif;
+	   font-style: italic;
+	   font-size: 16px;
+
+   }
+  
+  
+.gray__news p, .gray__buller p, .gray__comments p {
+	display: block;
+	width: 275px;
+	height: 166px;
+	overflow: hidden;
+	padding: 2px 0;
+	font-family: Open_sans;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #454545;
+}
+
+.gray__buller p {
+	height: 122px;
+	
+	
+}
+.gray__news--add {
+	
+		display: none;
+}
+
+
+/*----------------------- footer -------------------------------------*/
+
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+    position: relative;
+	overflow: hidden;
+}
+
+.design {
+	float: right;
+	margin: 5px 0 46px 0;
+	width: 140px;
+
+}
+
+
+.design  p {
+	font-family: Open_sans;
+	font-size: 12px;
+	color: #fff;
+	text-align: right;
+	text-shadow: #000 1px 1px 3px;
+
+}
+
+
+.design  p span  {
+	font-weight: bold;
+}
+
+
+/*------------------ footer NAV --------------------------------*/
+
+
+.mainnav--footer {
+	margin-top: 46px;
+
+}
+
+
+.mainnav--footer  ul {
+	list-style: none;
+
+}
+
+
+.mainnav--footer  ul li {
+	display: block;
+	float: left;
+}
+
+
+
+.mainnav--footer   ul li a{
+	display: block;
+	padding-right: 43px;
+	font-family: League;
+	font-size: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: #000 1px 1px 3px;
+	text-align: center;
+}
+
+
+
+.mainnav--footer   ul li a:hover{
+
+	color: #edbfff;
+}
+
