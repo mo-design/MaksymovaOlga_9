@@ -39,9 +39,8 @@
 
 
 body {
-	background-image: url(../img/footer_pic.jpg);
-	background-repeat: no-repeat;
-	background-size: 100% auto;
+	background-color: gray;
+	background-image: url(../img/footer_pic.jpg) no-repeat;
 	background-position: bottom;
 	font-family: Open_sans, sans-serif;
 }
@@ -58,11 +57,10 @@ header {
 	overflow: hidden;
 	width: 100%;
 	height: 845px;
-	border-bottom: 1px solid #34263b;
-	background-image: url(../img/bg_pic.jpg);
-	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-color: gray;
+	background-image: url(../img/bg_pic.jpg) no-repeat;
 	background-position: center;
+	border-bottom: 1px solid #34263b;
 }
 
 header p {
@@ -129,7 +127,7 @@ header p {
 	margin-top: 278px;
 	width: 100%;
 	height: 398px;
-	background: rgb(0, 0, 0);
+	background: #000;
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);  
 }
 
@@ -309,7 +307,6 @@ a.slider__rarrow:hover {
 	overflow: hidden;
 	border-top: 1px solid #34263b;
 	background: #664973;
-	background: linear-gradient(to top, #36293d, #765284);
 	padding: 47px 0 65px;
 	border-bottom: 1px solid #fff;
 	box-shadow: 10px;
